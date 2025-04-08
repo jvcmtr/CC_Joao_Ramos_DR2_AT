@@ -1,1 +1,15 @@
+com\infnet\App.class
+com\servicos\FreteFactory.class
+com\servicos\interfaces\ICalculadoraFrete.class
+com\dominio\frete\BaseFrete.class
+com\dominio\frete\FretePAD.class
+com\dominio\pedido\Pedido.class
+com\dominio\frete\FreteEXP.class
+com\dominio\pedido\Entrega.class
+com\dominio\frete\FreteECO.class
+com\constants\EFreteType.class
+com\servicos\EtiquetaService.class
 com\servicos\FreteFactory$1.class
+com\dominio\frete\IFrete.class
+com\dominio\frete\NullFrete.class
+com\servicos\CalculadoraFrete.class

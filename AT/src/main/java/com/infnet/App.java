@@ -1,5 +1,6 @@
 package com.infnet;
 
+import com.apresentacao.ExibirCLI;
 import com.constants.EFreteType;
 import com.dominio.pedido.Entrega;
 import com.servicos.CalculadoraFrete;
@@ -20,7 +21,10 @@ public class App
         calc.aplicarFretePromocional();
 
         EtiquetaService et = new EtiquetaService(calc);
-        et.gerarEtiqueta();
-        et.gerarResumoPedido();
+        
+        ExibirCLI exibicao = new ExibirCLI();
+        exibicao.print(et.gerarEtiqueta());
+        exibicao.print(et.gerarResumoPedido());
+        exibicao.close();
     }
 }
